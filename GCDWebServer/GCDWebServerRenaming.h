@@ -1,0 +1,29 @@
+//
+//  GCDWebServerRenaming.h
+//  CascableCore
+//
+//  Created by Daniel Kennett on 2019-04-20.
+//  Copyright © 2019 Cascable AB. All rights reserved.
+//
+
+#define GCDWebServer CBLGCDWebServer
+#define GCDWebServerConnection CBLGCDWebServerConnection
+#define GCDWebServerHandler CBLGCDWebServerHandler
+#define GCDWebServerMultiPart CBLGCDWebServerMultiPart
+#define GCDWebServerMultiPartArgument CBLGCDWebServerMultiPartArgument
+#define GCDWebServerMultiPartFile CBLGCDWebServerMultiPartFile
+#define GCDWebServerRequest CBLGCDWebServerRequest
+#define GCDWebServerDataRequest CBLGCDWebServerDataRequest
+#define GCDWebServerMultiPartFormRequest CBLGCDWebServerMultiPartFormRequest
+#define GCDWebServerURLEncodedFormRequest CBLGCDWebServerURLEncodedFormRequest
+#define GCDWebServerFileRequest CBLGCDWebServerFileRequest
+#define GCDWebServerResponse CBLGCDWebServerResponse
+#define GCDWebServerFileResponse CBLGCDWebServerFileResponse
+#define GCDWebServerStreamedResponse CBLGCDWebServerStreamedResponse
+#define GCDWebServerDataResponse CBLGCDWebServerDataResponse
+#define GCDWebServerErrorResponse CBLGCDWebServerErrorResponse
+#define GCDWebServerBodyEncoder CBLGCDWebServerBodyEncoder
+#define GCDWebServerGZipEncoder CBLGCDWebServerGZipEncoder
+#define GCDWebServerBodyDecoder CBLGCDWebServerBodyDecoder
+#define GCDWebServerGZipDecoder CBLGCDWebServerGZipDecoder
+#define GCDWebServerMIMEStreamParser CBLGCDWebServerMIMEStreamParser

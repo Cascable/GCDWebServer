@@ -27,6 +27,7 @@
 
 #import <TargetConditionals.h>
 
+#import "GCDWebServerRenaming.h"
 #import "GCDWebServerRequest.h"
 #import "GCDWebServerResponse.h"
 
