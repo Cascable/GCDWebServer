@@ -31,6 +31,10 @@
 #import "GCDWebServerRequest.h"
 #import "GCDWebServerResponse.h"
 
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#endif
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -311,6 +315,10 @@ extern NSString* const GCDWebServerAuthenticationMethod_DigestAccess;
  *  See the README.md file for more information about the architecture of GCDWebServer.
  */
 @interface GCDWebServer : NSObject
+
+#if TARGET_OS_IPHONE
+- (instancetype)initWithApplication:(UIApplication * _Nullable)app;
+#endif
 
 /**
  *  Sets the delegate for the server.
